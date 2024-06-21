@@ -1,3 +1,3 @@
-# Scripts for the CCM R Programming Workshop 2024
+# CCM R Programming Workshop 2024
 
-Scripts for session 2 of the R programming workshop are available here.
+Scripts + dataset for session 2 of the R programming workshop are available here.
