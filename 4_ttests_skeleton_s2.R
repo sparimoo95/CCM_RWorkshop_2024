@@ -13,10 +13,6 @@ t.test(df$variable)
 # what about 10?
 t.test(df$variable, mu = 10)
 
-# what if you want to test a directional hypothesis? 
-# i.e., do people smoke more than 5 cigarettes per day, on average?
-t.test(df$variable, mu = 5, alternative = "greater")
-
 #
 
 # B) Two-way t-tests ------------------------------------------------------
