@@ -26,7 +26,9 @@ cor.test(~ x + y, data = df, use = "na.or.complete")
 
 ggplot(prepped_df, aes(x = x, y = y)) +
   # add a black correlation line with SE intervals around it using `geom_smooth()`
-  geom_smooth() +# `se = TRUE` adds 95% confidence intervals around the line
+  geom_smooth() +
+  # `method` allows you to specify the smoothing method; we will use 'lm'
+  # `se = TRUE` adds 95% confidence intervals around the line
   # you can also add individual datapoints to the figure using `geom_point()`
   # geom_point(alpha = 0.5, color = "purple4", position = "jitter", size = 1) + 
   theme_apa(x.font.size = 20, y.font.size = 20) +
